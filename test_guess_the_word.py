@@ -37,7 +37,7 @@ def test_incorrect_guess():
 
 
 def test_repeated_guess():
-    # Check if the game stops you from guessing the same letter again
+    # Checks if the game stops you from guessing the same letter again
     secret_word = "laptop"
     guessed_letters = ["l"]
     result = game.process_guess(secret_word, guessed_letters, "l")
